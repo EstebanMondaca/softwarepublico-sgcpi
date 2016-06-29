@@ -1,0 +1,926 @@
+@charset "UTF-8";
+body{margin:0 auto; font-family:"Trebuchet MS",Arial,Helvetica,sans-serif; font-size:12px; color:#555; line-height:16px;}
+h1{font-size:16px;border-bottom:1px solid #666; font-weight:normal;}
+h2{font-size:15px; font-weight:bold;color:#28628e;}
+h3{ font-size:12px;border-bottom:1px solid #6095bd; font-weight:bold; color:#28628e; text-transform:uppercase;margin:0 0 5px 0; }
+h3formA1{font-size:15px;border-bottom:1px solid #6095; font-weight:bold; color:#28628e;font-family: serif;}
+/*h4{font-size:12px; background-color:#ddd; color:#555; padding:3px; text-transform:uppercase;}*/
+h5{font-size:13px; background-color:#6095bd; color:#fff; padding:3px; text-transform:uppercase;font-weight:normal;}
+a, a:link, a:visited{color:#0e6bb0;text-decoration:none;}
+a:hover{text-decoration:underline;}
+#contenedor {   height: auto;   width: 970px;   margin:auto;    background-color:#fff;}
+#header{ background:transparent url(imag/header.jpg) no-repeat 0 0;width:940px; height:138px; padding:15px 15px 0 15px;}
+#main{ background:transparent url(imag/bg-main.jpg) no-repeat 0 0;width:910px; height:auto; padding-left:30px;padding-right:30px;}
+#footer{background-color:#FBFBFB; height:auto; border-top:1px solid #ddd;padding:15px 10px; margin-top:10px; text-align:center; font-size:11px; }
+
+
+#zona-banner {padding:20px 0;}
+#zona-banner img{margin-right:20px; border:1px solid #ccc;}
+
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.padding-top{padding-top:20px;}
+.breadcrumbs{font-size:11px; padding:10px 0}
+
+/*BOTONES*/
+.boton, input[type='button'] , input[type='submit'] {background: transparent url(imag/bt1.png) no-repeat 0 0; height:27px; width:92px; border:none; color:#fff; float: right;}
+
+.MenuOperations.Asociacion li{float: right;}
+a.boton2{background: url("imag/bt2.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    display: block;
+    height: 19px;
+    padding-top: 6px;
+    text-align: center;
+    width: 124px;}
+.MenuOperations li.boton2{float:right;}
+.MenuOperations li.boton2 a{
+    background: url("imag/bt2.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    display: block;
+    height: 19px;
+    padding-top: 6px;
+    text-align: center;
+    width: 124px;
+}
+/*PROCESOS*/
+.menusProcesos a{color: #555555;}
+.menusProcesos a:hover{font-weight: bold;}
+.etapaPrincipal{height: 50px; margin: 5px 10px;  padding-top: 15px;  text-align: center;   width: 230px; display: table; background: transparent url(imag/capa-etapa.png) repeat-x 0 0; font-size:14px; text-align:center; -webkit-border-radius: 8px;border-radius: 8px; border:1px solid #ccc;}
+.etapa2{ height: 50px;  margin: 5px 0;  padding-top: 10px; text-align: center; width: 170px;  background: transparent url(imag/capa-etapa.png) repeat-x 0 0; font-size:14px; text-align:center; -webkit-border-radius: 8px;border-radius: 8px; border:1px solid #ccc;}
+.etapa3{font-size: 11px;    height: 35px;    margin: 5px 0;    padding-top: 7px;    text-align: center;  width: 140px;  background: transparent url(imag/capa-etapa.png) repeat-x 0 0; text-align:center; -webkit-border-radius: 8px;border-radius: 8px; border:1px solid #ccc;}
+.etapaAlto{height:auto;}
+.etapaSuperior{margin-right:10px;height:17px; width:auto; display: table;  padding:10px; font-size:14px; text-align:center; -webkit-border-radius: 8px;border-radius: 8px; border:1px solid #ccc;}
+.amarillo{ background-color: #ffdc71;}
+.verde{ background-color: #5fe178;}
+.blanco{ background-color: #fff;}
+.etapa span.texto {display: table-cell; vertical-align: middle; position: relative;}
+.flecha{background: transparent url(imag/flecha.png) no-repeat 0 0;width:36px; height:39px; margin:25px 5px;}
+.flechaPrincipal{background: transparent url(imag/flecha.png) no-repeat 0 0;width:36px; height:39px; margin: 18px 5px;}
+.tituloEtapa{display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;}
+.contenedores1{float: left; width: 150px;margin-left: 45px;  margin-right: 45px;}
+.contenedores2{float: left; width: 195px;margin-left: 10px;  margin-right: 10px;}
+#contenidoProcesosSecundarios{margin-bottom: 15px; margin-top: 15px;border: 2px solid #ccc;  -webkit-border-radius: 8px;border-radius: 8px;padding:10px; margin-left:10px;}
+#contenidoProcesosTercero{margin-bottom: 15px; margin-top: 20px;border: 2px solid #ccc;  -webkit-border-radius: 8px;border-radius: 8px;padding:10px; margin-left:10px;}
+/*MENU*/
+.menu {height:47px; width:932px; background:transparent url(imag/bg-menu.png) repeat-x bottom left; margin-left:-12px;}
+.menuIndex{height:47px; width:932px; margin-left:-12px;}
+.menu ul li{border-right:1px solid #ccc; border-left:1px solid #fff;display:inline; height:47px; padding:13px 7px 20px 7px; line-height:40px}
+.menu ul{ height:47px; margin:0; margin-left:0px;}
+.menu ul li.first{border-left:none;}
+.menu ul li.last{border-right:none;}
+.menu ul li a{font-size:12px; text-decoration:none; color:#666;text-transform:uppercase;}
+.menu ul li a:hover{ color:#0e6bb0;text-transform:uppercase;}
+.sesion {padding:12px 10px 0 0;}
+.menu li a.active {color:#0e6bb0;}
+
+/*ADMIN*/
+.admin-titulo{background-color: #6095bd;padding:5px; color:#fff;font-weight:normal;text-align:left;border:1px solid #6095bd; text-transform:uppercase; }
+.admin{ background-color:#e8eef5; border:1px solid #6095bd; padding:5px;}
+.admin div.box {background-color:#fff; border:1px solid #6095bd; padding:5px; margin:5px}
+
+
+/*INICIO*/
+.sidebar{width:280px; height:auto;}
+.graficos-inicio{width:590px; height:auto; background: transparent url(imag/bg-box.jpg) repeat-x bottom left;padding:10px;}
+.grafico{ width:290px;}
+.login-inicio{width:260px; height:auto; background: transparent url(imag/bg-box.jpg) repeat-x bottom left; padding:10px;}
+table.login {margin-top:10px;}
+table.login td{height:50px;}
+table.login input {height:30px; border:1px solid #ccc; widht:120px;}
+table.login input.boton{border:none; }
+
+
+/*TABLA*/
+table.tabla-basica{border:2px solid #6095bd; border-collapse:collapse;}
+table.tabla-basica th{background-color: #6095bd;padding:5px; color:#fff;font-weight:normal;text-align:left;}
+table.tabla-basica td{padding:5px; border:1px solid #6095bd; background-color:#e8eef5; vertical-align:top; color:#333;}
+table.tabla-basica tr.clara td{ background-color:#f7f9fb;}
+
+
+.contenedorLogin .row{text-align: right;}
+
+.contenedorLogin{float: right;
+    margin: 5px;
+    padding: 20px;
+    width: 394px;}
+  
+/*.button-column .view{display:none;}*/
+
+.blockLabel{display:block;}
+
+.rowleft45{float: left;   margin-left: 2px;  width: 45%;}
+.rowright45{float: right;   margin-right: 4px; width: 45%;}
+.rowleft45 .grid-view{height: 200px;overflow: auto;}
+.rowright45 .grid-view{height: 200px;overflow: auto;}
+
+.rowleft47{float: left;   margin: 5px;  width: 47%;}
+.rowright47{float: right;   margin: 5px; width: 47%;}
+
+.grid-view.overflow{height: 200px;overflow: auto;}
+
+.rowleft52{float: left;   margin-left: 2px;  width: 52%;}
+.grid-view input{text-align: center;}
+.rowleft60{float: left;   margin-right: 15px;  margin-top: 5px;  width: 60%;}
+.rowleft70{float: left;   margin-right: 15px;  margin-top: 5px;  width: 70%;}
+.rowright30{float: right;  margin-right: 15px;  margin-top: 5px;   width: 30%;}
+
+.rowleft72{float: left;   margin-right: 15px;  margin-top: 5px;  width: 72%;}
+
+.rowright23{float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    text-align: left;
+    width: 23%;}
+#content .MenuOperations{float: right; font-weight: bold; list-style-type: none; /*margin-top: -6px;*/margin-bottom: 3px;
+    margin-top: 10px;/*font-weight: bold; list-style-type: none; padding: 10px;  position: absolute;  right: 20px;  top: 36px;*/}
+/*.row .MenuOperations{font-weight: bold; list-style-type: none; padding: 0;  position: absolute;  right: 0;  top: 0px;}*/
+.row .MenuOperations{float: right;
+    font-weight: bold;
+    list-style-type: none;
+    margin-bottom: 3px;
+    margin-top: 10px;}
+.MenuOperations li{display: inline;}
+.MenuOperations li a {background: transparent url(imag/bt1.png); border: medium none;
+    color: #FFFFFF;
+    display: block;
+    height: 19px;
+    padding-top: 6px;
+    text-align: center;
+    width: 92px;}
+div.grid-view div.summary {
+    margin: 0 0 5px;
+    text-align: left;
+}
+
+/*table.tabla-basica{border:2px solid #6095bd; border-collapse:collapse;}
+table.tabla-basica th{background-color: #6095bd;padding:5px; color:#fff;font-weight:normal;text-align:left;}
+table.tabla-basica td{padding:5px; border:1px solid #6095bd; background-color:#e8eef5; vertical-align:top; color:#333;}
+table.tabla-basica tr.clara td{ background-color:#f7f9fb;}
+*/
+
+
+/*div.grid-view {
+    padding: 37px 0;
+}*/
+div.grid-view table.items {
+    background: none repeat scroll 0 0 white;
+    border:2px solid #6095bd;
+    border-collapse: collapse;
+    width: 100%;
+}
+div.grid-view table.items th, .grid-view table.items td {
+    border: 1px solid #6095bd;
+    background-image: none;
+}
+div.grid-view table.items th {
+    background-color: #6095BD;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: left;
+    text-transform:uppercase;
+}
+
+table.evidencia th {
+    background-color: #6095BD;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+table.evidencia {
+    background: none repeat scroll 0 0 white;
+    border:2px solid #6095bd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.evidencia td {
+    border: 1px solid #6095bd;
+    color: #333333;
+}
+
+table.evidencia tr.even {
+    background: none repeat scroll 0 0 #F8F8F8;
+}
+
+div.grid-view table.items th a {
+    color: #FFF;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+div.grid-view table.items td {
+    font-size: 12px;
+    border: 1px solid #6095bd;
+    padding: 0.3em;
+    color: #333333;
+}
+.grid-view table.items th a {
+    color: #EEEEEE;
+    font-weight: bold;
+    text-decoration: none;
+}
+.grid-view table.items th a:hover {
+    color: #FFFFFF;
+}
+.grid-view table.items tr.even {
+    background: none repeat scroll 0 0 #F8F8F8;
+}
+.grid-view table.items tr.odd {
+    background: none repeat scroll 0 0 #E5F1F4;
+}
+div.grid-view table.items tr.selected {
+    background: none repeat scroll 0 0 #BCE774;
+}
+
+div.grid-view table.items tr.selected td {
+    background: none repeat scroll 0 0 #BCE774;
+}
+.grid-view table.items tbody tr:hover {
+    background: none repeat scroll 0 0 #ECFBD4;
+}
+.grid-view .link-column img {
+    border: 0 none;
+}
+div.grid-view .button-column {
+    text-align: center;
+    width: 70px;
+}
+.grid-view .button-column img {
+    border: 0 none;
+}
+.grid-view .checkbox-column {
+    width: 15px;
+}
+
+.grid-view .pager {
+    margin: 5px 0 0;
+    text-align: right;
+}
+.grid-view .empty {
+    font-style: italic;
+}
+.grid-view .filters input, .grid-view .filters select {
+    border: 1px solid #CCCCCC;
+    width: 100%;
+}
+
+.items label{font-weight: normal;}
+
+
+.form .row{position:relative;}
+
+.precarga {
+    background:transparent url(imag/ajax-loader.gif) center no-repeat;
+ }
+ 
+.fieldset {
+    background: none repeat scroll 0 0 #FFFFFF;    
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+
+
+.indicadores_meses{
+    height: 46px;
+    width:41px;
+    float:left;
+    background-color: #DDDDDD;
+} 
+.indicadorMesActivo{
+    background-color: #FFF6BF;
+     height: 30px;
+    text-align: center;
+}
+.indicadorMesInactivo{
+    background-color: #B7D6E7;
+     height: 30px;
+    text-align: center;
+}
+/*
+ #procesoPlanificacionInstitucional{
+    width: 230px; 
+    height: 70px;
+    border: 5px outset #cccccc;
+    background-color: #cccccc; 
+}
+
+#procesoControlGestion{
+    width: 230px; 
+    height: 70px;
+    border: 5px outset #cccccc;
+    background-color: #cccccc; 
+}
+
+#evaluacionGestion {
+    width: 230px; 
+    height: 70px;
+    border: 5px outset #cccccc;
+    background-color: #cccccc; 
+}
+
+ 
+#enproceso{
+    width: 100px; 
+    border: 5px outset #cccccc;
+    background-color: yellow; 
+}
+#finalizado{
+    width: 100px;
+    border: 5px outset #cccccc;
+    background-color: green; 
+}
+#noiniciado{
+    width: 100px;
+    border: 5px outset #cccccc;
+    background-color: white; 
+}
+*/
+
+#statusMsg{position:relative;width:80%;z-index: 9999;}
+#statusMsg .alert{height: 200px;
+    margin-left: 130px;
+    margin-top: 150px;
+    position: absolute;
+    width: 90%;}
+
+#estados img{margin-right:5px;}
+
+
+.mailbox-menu-item,.mailbox-menu-newmsg{font-size:11px;}
+
+.panelesControl{float: left; width: 200px;}
+
+.panelesControl .tituloEtapa{font-size: 13px; text-align: left;}
+
+
+.fieldset.amarillo a {margin-left:20px;}
+.fieldset.verde a {margin-left:20px;}
+
+.activo {color:#0E6BB0;}
+
+.menusSecundarios{position:relative;}
+.menusTerceros{position:relative;}
+
+.verticalRule{border-left: 2px solid #CCCCCC; height: 23px; position: absolute; }
+.menusSecundarios .verticalRule{top: -43px;}
+.menusTerceros .verticalRule{top: -33px;}
+
+.selectorPeriodo{width:120px; }
+.selectorIndicadores{width:195px; }
+
+.fieldset2{
+    padding: 10px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #6095BD;
+    margin-top: 10px;
+    position: relative;
+}
+
+.fieldsetFormula{
+    padding: 10px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    float: right;
+}
+
+
+.legend {
+    color: #28628E;
+    background: none repeat scroll 0 0 #FFFFFF;
+    font-weight: bold;
+    left: 0.5em;
+    padding: 0 0.25em;
+    position: absolute;
+    top: -0.6em;
+    text-transform: uppercase;
+}
+
+div.form input.meses{font-size: 10px;
+    margin: 0;
+    padding: 0;
+    width: 38px;}
+    
+
+textarea {
+resize: none;
+}
+
+.iconoRojo{
+	width: 30px;
+    height: 31px;
+    padding: 0px 5px 0px 0px;
+  
+    background-repeat:no-repeat;
+    background-image: url(imag/ico-rojo.png);
+    float:left;
+}
+.nomIndicador{
+	font-weight: bold;
+	float:left;
+	width:53px;
+}
+
+
+
+
+.iconoVerde{
+	
+	width: 30px;
+    height: 31px;
+    padding: 0px 5px 0px 0px;
+    background-repeat:no-repeat;
+    background-image: url(imag/ico-verde.png);
+    float:left;
+}
+
+.iconoAmarillo{
+	
+	width: 30px;
+	padding: 0px 5px 0px 0px;
+	background-repeat:no-repeat;
+    height: 31px;
+    background-image: url(imag/ico-amarillo.png);
+    float:left;
+	
+}
+.contenedorControl{
+	background-color: #eeeeee;
+  	border: 1.2px solid black;
+  	font-color: #000000;
+  	font-size: 13px;
+    margin: 5px;
+    padding: 10px 20px;
+    width: 500px;
+    border-radius:8px;
+    border-color:#ccc;
+}
+.contenedorTab{
+	
+    margin: 5px;
+    width: 610px;
+    float:left;
+}
+.contenedorIndicaciones{
+    background-color: #eeeeee;
+  	border: 1.2px solid black;
+    margin: 5px;
+    padding: 10px 20px;
+    width: 220px;
+    height: 366px;
+    float:right;
+    font-size:13px;
+    font-weight:normal;
+    border-radius:8px;
+    border-color:#ccc;
+
+}
+
+.contenedorProgresBar{
+
+	overflow: auto;	
+	 height: 326px;
+
+}
+.letraGrandeIndicadoresInstrumentos{   
+    border: 2px solid;
+    font-size: 21px;
+    font-weight: bold;
+    height: 40px;
+    margin-left: 400px;
+    padding: 20px 5px 20px 20px;
+    width: 300px;}
+
+
+.grid-viewIndicadoresInstrumentos  {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #6095BD;
+    border-collapse: collapse;
+    width: 810px;
+}
+
+.grid-viewIndicadoresInstrumentos  th {
+    background-color: #6095BD;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.grid-viewIndicadoresInstrumentos  td {
+    border: 1px solid #6095BD;
+    color: #333333;
+    font-size: 12px;
+    padding: 0.3em;
+}
+
+.grid-viewIndicadoresInstrumentosOne  {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #6095BD;
+    border-collapse: collapse;
+    width: 210px;
+}
+
+.grid-viewIndicadoresInstrumentosOne  th {
+    background-color: #6095BD;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.grid-viewIndicadoresInstrumentosOne  td {
+    border: 1px solid #6095BD;
+    color: #333333;
+    font-size: 12px;
+    padding: 0.3em;
+}
+
+.centrarTexto{
+    text-align: center;
+}
+cbT{font-size:10px;font-weight:normal;}
+
+
+
+letraTitulos{font-family: Comic Sans MS;font-size:21px;font-weight:bold;}
+
+letraSubTitulos{font-family:helvetica, sans-serif;font-size:13px;font-weight:bold;}
+.fieldset2.amarilloClaro{background-color:#FFFFCC;}
+.fieldset2.amarillo{background-color: #FFDC71;}
+.fieldset2.verde{background-color: #5FE178;}
+.fieldset2.planificacion{float: left;
+    height: 384px;
+    margin: 12px;
+    width: 400px;
+    -webkit-border-radius: 8px; border-radius: 8px; border:1px solid #ccc;}
+ 
+.fieldset2.parametros{  
+    float: left;
+    height: 650px;
+    margin: 10px;
+    padding-top: 0;
+    width: 20%;
+    -webkit-border-radius: 8px; border-radius: 8px; border:1px solid #ccc;}
+
+.fieldset2.parametros a{margin-top:10px;}
+
+.fieldset2.modelo{float: left;
+    height: 220px;
+    margin: 12px;
+    width: 180px;
+    -webkit-border-radius: 8px; border-radius: 8px; border:1px solid #ccc;}       
+    
+.fieldset2.planificacion a{margin-right: 13px; margin-top: 10px;}
+div.ui-tabs .ui-tabs-nav li a{padding: .5em;}
+.grafico_indicador{position:relative;}
+.porcentaje_indicador{color: #333333;    font-size: 12px;    font-weight: bold;    left: 89px;    position: absolute;   top: 5px;}
+
+
+table.evidencia{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+table.evidencia td{    
+    border: 1px solid #CCCCCC;
+}
+
+table.evidencia td.selected{
+    background: none repeat scroll 0 0 #BCE774;
+    border: 1px solid #BCE774;
+}
+
+.actividadesContenedor{
+
+  	border: 1.2px solid black;
+    padding: 8px 8px 8px 8px;
+    border-color:#ccc;
+		
+}
+
+.tablaRegistroAvance td {
+    padding: 5px;
+}
+.tablaEstadoActividadesRegistroAvance td {
+    padding: 5px;
+    width: 143px;
+}
+.lab{
+
+	width:120px;
+	
+}
+.lab2{
+
+	width:200px;
+	
+}
+
+.iconoInferiores{
+	width:400px;
+	height: 20px;
+}
+
+.iconoRojoA{
+	width: 25px;
+    height: 24px;  
+    background-repeat:no-repeat;
+    background-image: url(imag/ico-rojo.png);
+    float:left;
+    padding: 0 8px 0 0;
+}
+
+
+.iconoVerdeA{
+	
+	width: 25px;
+    height: 24px;
+    background-repeat:no-repeat;
+    background-image: url(imag/ico-verde.png);
+    float:left;
+    padding: 0 8px 0 0;
+}
+
+.iconoAmarilloA{
+	
+	width: 25px;
+	background-repeat:no-repeat;
+    height: 24px;
+    background-image: url(imag/ico-amarillo.png);
+    float:left;
+    padding: 0 8px 0 0;
+	
+}
+
+
+table.control td{
+    vertical-align: top;
+}
+
+/*clase select obtenida desde bootstrap*/
+select {
+    width: 220px;
+    background-color: white;
+    border: 1px solid #CCC;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.iconoExcel{
+
+	width: 25px;
+	background-repeat:no-repeat;
+    height: 24px;
+    background-image: url(imag/word.jpg);
+    float:left;
+    padding: 0 8px 0 0;
+	
+}
+/*clase ext.widgets.DetailView4Col*/
+table.detail-view { border:1px solid #fff !important; }
+table.detail-view tbody tr:nth-child(even) { background:#E5F1F4; border-color:#fff; }
+table.detail-view tbody tr:nth-child(odd) { background:#F8F8F8;  border-color:#fff; }
+/*table.detail-view tbody td { border-color:#fff; min-width:25%; }*/
+table.detail-view tbody tr.header { background:#95C8D5; }
+table.detail-view tbody tr.header th { text-align:left; min-width:20%; }
+
+.deleteRecord{display: none;}
+
+.contenedorGridEjecucionPresupuestaria{
+
+	overflow: auto;	
+	 width: 910px;
+
+}
+
+.textareabootstrap{
+    display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.selectbootstrap{
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 220px;
+}
+
+#mensajeSuccess{display:block;}
+
+/*FIX PARA BOTON DE MAIL*/
+
+input.btn[type="submit"] {
+    background-color: #E6E6E6;
+    background-image: none;
+    color: #333333;
+    width: auto;
+}
+
+.fondoForm{
+    display:none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.contenedorformA1{
+	
+    margin: 5px;
+    width: 900px;
+    float:left;
+}
+.contenedorformA1Pest{
+	background-color: #eeeeee;
+  	border: 1.2px solid black;
+  	font-color: #000000;
+  	font-size: 13px;
+    margin: 5px;
+    padding: 10px 20px;
+    width: 800px;
+    border-radius:8px;
+    border-color:#ccc;
+}
+
+.mailbox-message-list .ui-widget-header{
+        background: none repeat scroll 0 0 #6095BD;
+    border: 1px solid #6095BD;
+    color: #FFFFFF;}
+    
+.mailbox-message-list::-webkit-input-placeholder{ /* WebKit browsers */
+    color:    #FFFFFF;
+}
+.mailbox-message-list:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFFFFF;
+}
+.mailbox-message-list::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFFFFF;
+}
+.mailbox-message-list:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFFFFF;
+}
+    
+    
+.mailbox-message-list .ui-widget-content {border: 1px solid #6095BD;}
+
+
+.mailbox-message-list input.btn[type="submit"] {
+    background-color: #E6E6E6;
+    background-image: none;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    height: auto;
+    padding: 8px;
+    width: auto;
+}
+.mapaDesafioEstrategico{    
+    border: 1px solid red;
+    float: left;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    /*overflow: hidden;*/
+    white-space: normal;
+    position: relative;
+    -moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;
+    /*overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;*/
+    
+    }
+.mapaDesafioEstrategico .informacion{overflow: hidden; white-space: normal; height:100%;width:100%}
+
+.mapaDesafioEstrategico .asociacion{background-color: blue;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 17px;
+    padding: 2px;
+    position: absolute;
+    right: -10px;
+    top: -1px;
+    width: 20px;
+    -moz-border-radius:2px;-khtml-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;
+    }
+    
+.mapaDesafioEstrategico a:hover{text-decoration:none;}   
+.linkObjetivo a:hover{text-decoration:none;}   
+.mapaObjetivoEstrategico{    
+    border: 3px solid red;
+    height: 40px;
+    margin: 10px 5px;
+    padding: 10px;
+    overflow: hidden;
+    white-space: normal;
+     width: 200px;
+    -moz-border-radius:25px;-khtml-border-radius:25px;-webkit-border-radius:25px;border-radius:25px;
+}
+    
+.mapaEstrategico{
+    
+    }
+.mapaPerspectivas th{vertical-align: top; text-align: left;}
+.iconoWord{
+
+	width: 25px;
+	background-repeat:no-repeat;
+    height: 24px;
+    background-image: url(imag/word.jpg);
+    float:left;
+    padding: 0 8px 0 0;
+	
+}
+
+.iconoPdf{
+
+	width: 25px;
+	background-repeat:no-repeat;
+    height: 24px;
+    background-image: url(imag/pdf.png);
+    float:left;
+    padding: 0 8px 0 0;
+	
+}
+
+.mapaMision{
+    background-color: #DBDBDB;
+    border: 2px solid #6095BD;
+    padding: 20px;
+}
+
+.textoReportesTablas {
+	color: #FFF;
+}
+
+tr.onclickmouse { 
+	background-color: #BCE774; 
+ }
+tr.offclickmouseimpar { 
+	background-color: #E5F1F4;
+	}
+tr.offclickmousepar { 
+	background-color: #FBFBEF;
+	}
+	
+.contenedorGridReportecdc{
+
+	overflow: auto;	
+	 width: 880px;
+
+}
+
+.cadenaValor ul{margin-bottom: 20px;
+    padding-left: 10px;}
+table.cadenaValor{border-spacing: 5px;border-collapse: separate;}
+table.cadenaValor, .cadenaValor td {vertical-align: top;}
+
+table.cadenaValor .borde{border: 1px solid #999999;}
+
+
+#elementoS option{max-width:400px;}
+
+#laElemGestions_evidencia .textareabootstrap{overflow: auto;}
+
+.login-inicio .errorSummary{color:red;}
