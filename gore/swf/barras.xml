@@ -1,0 +1,22 @@
+<chart caption='Indicadores Formulario H' xAxisName='Indicadores' yAxisName='Alcanzado' showValues='1' numberSuffix='%' showLegend="1" showYAxisValues="0">
+   <categories>
+      <category label='Ind. 1' />
+      <category label='Ind. 2' />
+      <category label='Ind. 3' />
+      <category label='Ind. 4' />
+      <category label='Ind. 5' />
+      <category label='Ind. 6' />
+      <category label='Ind. 7' />
+      <category label='Ind. 8' />	
+   </categories>
+   <dataset seriesName='Actual'>
+      <set value='30' toolText="Porcentaje de iniciativas de inversi&#243;n FNDR (bajo el subt&#237;tulo 31) identificados en el ARI, incluidas en el PROPIR. " />
+      <set value='25' toolText="Porcentaje de iniciativas de inversi&#243;n de arrastre identificadas al 30 de abril del a&#241;o t" />
+      <set value='75' toolText="Porcentaje cumplimiento de la programaci&#243;n financiera del FNDR"  />
+      <set value='38' toolText="PROT elaborado "  />
+      <set value='44' toolText="Porcentaje de proyectos de inversi&#243;n  fiscalizados (item 31-02, 33-03-100) en etapa de ejecuci&#243;n de obras"  />
+      <set value='10' toolText="Porcentaje de proyectos de inversi&#243;n terminados con recepci&#243;n definitiva"  />
+      <set value='60' toolText="Porcentaje de ejecuci&#243;n del plan de pol&#237;tica de zonas aisladas"  />
+      <set value='57' toolText="Porcentaje de iniciativas nuevas FNDR del  ARI  a&#241;o t+1 altamente pertinente con las Orientaciones estrat&#233;gicas para la inversi&#243;n"  />
+   </dataset>
+</chart>

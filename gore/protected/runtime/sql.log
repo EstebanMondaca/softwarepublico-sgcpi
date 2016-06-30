@@ -1,0 +1,98 @@
+2012/11/05 16:09:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:09:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `periodos_procesos`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:09:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `periodos_procesos`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:09:02 [trace] [system.db.ar.CActiveRecord] PeriodosProcesos.find()
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (144)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:09:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `periodos_procesos` `t` WHERE id =2 LIMIT 1
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (144)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:09:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `activacionProceso`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BaseActivacionProceso.php (23)
+in /Applications/MAMP/htdocs/gore/protected/models/ActivacionProceso.php (8)
+2012/11/05 16:09:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `activacionProceso`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BaseActivacionProceso.php (23)
+in /Applications/MAMP/htdocs/gore/protected/models/ActivacionProceso.php (8)
+2012/11/05 16:09:03 [trace] [system.db.ar.CActiveRecord] ActivacionProceso.findAll()
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (254)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (146)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:09:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT id, inicio FROM `activacionProceso` `t`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (254)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (146)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:09:03 [trace] [system.db.ar.CActiveRecord] PeriodosProcesos.find()
+in /Applications/MAMP/htdocs/gore/protected/views/site/menuJson.php (22)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (153)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:09:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `periodos_procesos` `t` WHERE id =2 LIMIT 1
+in /Applications/MAMP/htdocs/gore/protected/views/site/menuJson.php (22)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (153)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:09:03 [trace] [system.db.ar.CActiveRecord] ActivacionProceso.findAll()
+in /Applications/MAMP/htdocs/gore/protected/views/site/menuJson.php (24)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (153)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:09:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `activacionProceso` `t` WHERE periodo_id =2
+in /Applications/MAMP/htdocs/gore/protected/views/site/menuJson.php (24)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (153)
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:10:56 [trace] [system.db.CDbConnection] Opening DB connection
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:10:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `periodos_procesos`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:10:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `periodos_procesos`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:10:57 [trace] [system.db.ar.CActiveRecord] PeriodosProcesos.findAll()
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (254)
+in /Applications/MAMP/htdocs/gore/protected/views/site/index.php (37)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (62)
+2012/11/05 16:10:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT id, descripcion FROM `periodos_procesos` `t`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (254)
+in /Applications/MAMP/htdocs/gore/protected/views/site/index.php (37)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (62)
+2012/11/05 16:11:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:11:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `periodos_procesos`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:11:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `periodos_procesos`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (32)
+in /Applications/MAMP/htdocs/gore/protected/models/_base/BasePeriodosProcesos.php (20)
+in /Applications/MAMP/htdocs/gore/protected/models/PeriodosProcesos.php (8)
+2012/11/05 16:11:01 [trace] [system.db.ar.CActiveRecord] PeriodosProcesos.findAll()
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (254)
+in /Applications/MAMP/htdocs/gore/protected/views/site/index.php (37)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (62)
+2012/11/05 16:11:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT id, descripcion FROM `periodos_procesos` `t`
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-components/GxActiveRecord.php (254)
+in /Applications/MAMP/htdocs/gore/protected/views/site/index.php (37)
+in /Applications/MAMP/htdocs/gore/protected/controllers/SiteController.php (62)
+2012/11/05 16:17:13 [trace] [system.db.CDbConnection] Opening DB connection
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:17:19 [trace] [system.db.CDbConnection] Opening DB connection
+in /Applications/MAMP/htdocs/gore/index.php (13)
+2012/11/05 16:17:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-core/giixModel/GiixModelGenerator.php (29)
+in /Applications/MAMP/htdocs/gore/protected/extensions/giix-core/giixModel/views/index.php (59)
+in /Applications/MAMP/htdocs/gore/index.php (13)

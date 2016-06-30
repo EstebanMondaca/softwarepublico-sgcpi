@@ -1,0 +1,33 @@
+<chart caption='' anchorAlpha='0'>
+   <categories>
+
+      <category label='Planificaci&#243;n Institucional, Informaci&#243;n y Conocimiento' />
+      <category label='Liderazgo' />
+      <category label='Personas' />
+      <category label='Ciudadan&#237;a, Socios y Colaboradores.' />
+      <category label='Gesti&#243;n de la Planificaci&#243;n Estrat&#233;gica Regional' />
+      <category label='Gesti&#243;n de Inversiones y Desarrollo Regional Territorial' />
+      <category label='Gesti&#243;n de Recursos' />
+      <category label='Resultados' />	
+   </categories>
+   <dataset seriesName='&#218;ltima Autoevaluaci&#243;n' color="#0000ff">
+      <set value='23' />
+      <set value='12' />
+      <set value='29' />
+      <set value='7' />
+      <set value='26' />
+      <set value='22' />
+      <set value='33' />
+      <set value='13' />
+   </dataset>
+   <dataset seriesName='Actual' color="#00ff00">
+      <set value='29' />
+      <set value='23' />
+      <set value='43' />
+      <set value='18' />
+      <set value='30' />
+      <set value='27' />
+      <set value='40' />
+      <set value='13' />
+   </dataset>
+</chart> 

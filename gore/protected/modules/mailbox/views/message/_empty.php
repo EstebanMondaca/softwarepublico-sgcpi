@@ -1,0 +1,1 @@
+<div class="mailbox-empty">Tu no tienes mensaje en tu carpeta.</div>

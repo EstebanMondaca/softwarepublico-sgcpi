@@ -1,0 +1,32 @@
+<chart caption='' anchorAlpha='0'>
+   <categories>
+      <category label='Cr. 1' />
+      <category label='Cr. 2' />
+      <category label='Cr. 3' />
+      <category label='Cr. 4' />
+      <category label='Cr. 5' />
+      <category label='Cr. 6' />
+      <category label='Cr. 7' />
+      <category label='Cr. 8' />	
+   </categories>
+   <dataset seriesName='&#218;ltima Autoevaluaci&#243;n' color="#0000ff">
+      <set value='23' toolText="Planificaci&#243;n Institucional, Informaci&#243;n y Conocimiento, &#218;ltima Autoevaluaci&#243;n 23"/>
+      <set value='12' toolText="Liderazgo, &#218;ltima Autoevaluaci&#243;n 12"/>
+      <set value='29' toolText="Personas, &#218;ltima Autoevaluaci&#243;n 29"/>
+      <set value='7' toolText="Ciudadan&#237;a, Socios y Colaboradores, &#218;ltima Autoevaluaci&#243;n 7"/>
+      <set value='26' toolText="Gesti&#243;n de la Planificaci&#243;n Estrat&#233;gica Regional,&#218;ltima Autoevaluaci&#243;n 26"/>
+      <set value='22' toolText="Gesti&#243;n de Inversiones y Desarrollo Regional Territorial, &#218;ltima Autoevaluaci&#243;n 22"/>
+      <set value='33' toolText="Gesti&#243;n de Recursos, &#218;ltima Autoevaluaci&#243;n 33"/>
+      <set value='13' toolText="Resultados, &#218;ltima Autoevaluaci&#243;n 13"/>
+   </dataset>
+   <dataset seriesName='Actual' color="#00ff00">
+      <set value='29' toolText="Planificaci&#243;n Institucional, Informaci&#243;n y Conocimiento, Actual 29"/>
+      <set value='23' toolText="Liderazgo, Actual 23"/>
+      <set value='43' toolText="Personas, Actual 43"/>
+      <set value='18' toolText="Ciudadan&#237;a, Socios y Colaboradores, Actual 18"/>
+      <set value='30' toolText="Gesti&#243;n de la Planificaci&#243;n Estrat&#233;gica Regional,Actual 30"/>
+      <set value='27' toolText="Gesti&#243;n de Inversiones y Desarrollo Regional Territorial, Actual 27"/>
+      <set value='40' toolText="Gesti&#243;n de Recursos, Actual 40"/>
+      <set value='13' toolText="Resultados, Actual 13"/>
+   </dataset>
+</chart> 

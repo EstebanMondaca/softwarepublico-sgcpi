@@ -1,0 +1,28 @@
+<?php
+return array (
+  'List'=>'Listado ',
+  'Create'=>'Crear ',
+  'Update'=>'Modificar',
+  'Delete'=>'Eliminar ', 
+  'Manage'=>'Buscar ',
+  'View'=>'Ver ',  
+  'Save'=>'Guardar',
+  'Cancel'=>'Cancelar',
+  'Operations'=>'Operaciones',
+  'Fields with'=>'Campos con',
+  'are required'=>'son requeridos',
+  'Index'=>'Página principal',
+  'DesafiosEstrategicos'=>'Desafíos Estratégicos',
+  'desafiosEstrategicoses'=>'Desafíos Estratégicos',
+  'ProductosEstrategicos'=>'Productos Estratégicos',
+  'Subproductoses'=>'Subproductos',
+  'Home'=>'Inicio',
+  'ProductosEstrategicos'=>'Productos Estratégicos',
+  'ProductosEstrategicoses'=>'Productos Estratégicos',
+  'objetivosMinisteriales'=>'Objetivos Ministeriales',
+  'ObjetivosEstrategicos'=>'Objetivo Estrátegico',
+  'ObjetivosEstrategicoses'=>'Objetivos Estrátegicos',
+  'Parent'=>'Padre',
+  'Viaticos' => 'Viáticos',
+  'update'=>'Modificar'
+); 
