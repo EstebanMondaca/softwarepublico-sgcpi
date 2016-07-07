@@ -74,6 +74,7 @@ return array(
 
                 # page after login
                 'returnUrl' => array('/site'),
+                //'returnUrl' => array('gore/site'),
 
                 # page after logout
                 'returnLogoutUrl' => array('/'),

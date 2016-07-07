@@ -2,8 +2,15 @@
 
 
 // Cambiar las siguientes rutas de acceso si es necesario
+//configuración local
 $yii=dirname(__FILE__).'/../../yii/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
+
+//config lazos
+
+//$yii=dirname(__FILE__).'/yii/framework/yii.php';
+//$config=dirname(__FILE__).'/../protected/config/main.php';
+
 
 // Cambiar el true a false cuando pase a producccion
 defined('YII_DEBUG') or define('YII_DEBUG',true);
